@@ -8,11 +8,86 @@ CLDM is a command line tool for creating useful Dungeons & Dragons (or any fanta
 - Dice roller: roll dice and add modifiers
 
 ##### Commands
-Roll dice: python dice.py -d {DICE STRING: 3d6, 1d20, etc.} -m {MODIFIER: 5, -3, etc.} (-d required)
-Generate NPC: python createNPC.py -r {RACE: human} -s {SEX: male, female} -a {AGE: child, young_adult, adult, elder} -p {PROFESSION: Peasant, Leader, etc.} -E {EXPORT: no args, exports to .md} (no required args)
-Generate Region: python createRegion.py -t {TYPE: Mountains, Forest, River} -c {CLIMATE: Temperate} -E {EXPORT: no args, exports to .md} (no required args, but will crash when not making Temperate regions right now)
-Generate Town: python createTown.py -n {NAME: name string} -s {SIZE: Hamlet, Village, Town, City, Metropolis} -c {CLIMATE: Temperate} -E {EXPORT: no args, exports to .md} (no required args, but will crash when not making Temperate regions right now)
+- Roll dice: ```python dice.py -d {DICE STRING: 3d6, 1d20, etc.} -m {MODIFIER: 5, -3, etc.}``` (-d required)
+- Generate NPC: ```python createNPC.py -r {RACE: human} -s {SEX: male, female} -a {AGE: child, young_adult, adult, elder} -p {PROFESSION: Peasant, Leader, etc.} -E {EXPORT: no args, exports to .md}``` (no required args)
+- Generate Region: ```python createRegion.py -t {TYPE: Mountains, Forest, River} -c {CLIMATE: Temperate} -E {EXPORT: no args, exports to .md}``` (no required args, but will crash when not making Temperate regions right now)
+- Generate Town: ```python createTown.py -n {NAME: name string} -s {SIZE: Hamlet, Village, Town, City, Metropolis} -c {CLIMATE: Temperate} -E {EXPORT: no args, exports to .md}``` (no required args, but will crash when not making Temperate regions right now)
 
 ##### Current To-Do List
-
+- **NPC Generation**
+  - Add more races to NPC Generation
+    - Elves
+    - Dwarves
+    - Halflings
+    - Gnomes
+    - Tiefling
+    - Dragonborn
+    - Half-Elves
+    - Half-Orcs
+  - Handle children better
+    - No profession
+    - No facial hair
+    - Less height and weight
+  - Personality/Backstory
+    - Likes/Dislikes based on history
+    - Goals and Personality
+    - Relationships with other NPCs
+      - Generate one NPC and then their family and friends or choose from an existing pool of NPCs?
+      - Love interests, exes, friends, enemies, regular customers, crushes, etc.
+  - Notable physical features (add spice to descriptions)
+    - Scars, missing limbs, etc.
+    - Hooked nose, large ears, bushy eyebrows, etc. type quirks
+- **Region Generation**:
+  - Plains
+  - Hills
+  - Swamps
+  - Sea/Beach
+  - Jungle
+  - Desert
+  - Savannah
+  - Tundra
+- **Town Generation**
+  - Generate race demographics
+    - Commonness of race
+    - Primary race in an area
+    - Shunned/disliked races
+  - Generate professions
+    - Labors based on supported natural resources
+    - Artisanal goods based on specific resources, needs, and population size
+  - Generate additional town statistics:
+    - economy: the richness of the town
+    - military: the military presence in the town
+      - town militia or local barracks?
+    - crime: the crime presence in the town
+      - petty theft, organized crime, serial killers?
+    - religion: how much value is placed on religion in the town
+      - the presence of temples or churches? cults?
+    - lore: the town's access to information, libraries, and knowledge
+      - libraries, colleges, bookstores, etc.
+    - corruption: how corrupt the town's positions of power are
+      - squeaky clean leadership or payoffs, etc.
+  - Generate shops and buildings
+    - Description
+    - Wares
+- **Miscellaneous**
+  - Improve ALL name generation
+  - Save and load all data as JSON files
+  - Potentially add export to HTML options
+  - Have exports organize themselves into folders (the town has a folder with NPCs and Buildings subfolders)
+  - Scanner that updates saved JSON data with any changes made to markdown files (as long as they are correctly formatted)
 ##### Far-Future Wishlist
+- **Kingdom Generation**
+  - Generate entire countries of information at once with common government styles and regions between towns.
+  - Generate town sizes and economies based on the needs of the greater kingdom (one metropolis or city as a capital)
+  - Detailed politics and laws
+- **Greater World Generation**
+  - Starting from nothing, generate various continents and islands that contain countries or individual points of interest.
+- **Other Generation**
+  - Add dungeons to regions and plot hooks to NPCs
+  - Rumors and secrets to NPCs to make them spicier
+  - History/Lore generation (not detailed but overlaid on top of the other generated information
+  - Books, encounters, etc. (other minor tools for use with bookstores, regions, etc.)
+- **Gods and Goddesses**
+  - Generate gods, goddesses, and creation myths for use with the world generation
+- **Dungeon Master Skynet**
+  - Once everything else is complete, finish it off with a CHATGPT Dungeon Master that can replace Alex and all other Dungeon Masters forever.
