@@ -54,6 +54,8 @@ def exportNPC(npc):
     with open(os.path.join(ROOT_DIR, 'exports\\templates\\NPC.md'), 'r') as file:
         src = Template(file.read())
         result = src.substitute(replacements)
+        if not os.path.isdir(os.path.join(ROOT_DIR, 'exported_files')):
+            os.mkdir(os.path.join(ROOT_DIR, 'exported_files'))
         with open(os.path.join(ROOT_DIR, f'exported_files\\{npc.first_name} {npc.last_name}.md'), 'w') as file2:
             file2.write(result)
 
