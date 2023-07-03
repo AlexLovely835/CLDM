@@ -1,0 +1,95 @@
+Create NPC:
+- Add more children stats
+- Add more races
+- Add Personality traits and history (based on town info?)
+
+
+Town Stats:
+
+economy -- how rich is the economy
+military -- how heavy is military presence
+crime -- how much crime is there
+religion -- how much religion
+lore -- how much information and history can be found here
+corruption -- how corrupt is the leadership
+
+Primary Exports:
+
+woodcutting:
+lumber
+
+foraging:
+mushrooms
+local flora
+nuts
+berries
+
+hunting:
+exotic meats
+furs
+monster parts
+
+fishing:
+fish
+ink
+pearls
+oil
+
+farming:
+animals
+cheese
+cloth
+coffee
+dyes
+grains
+fruits
+vegetables
+sugar
+spices
+
+mining:
+gems
+coal
+granite
+metal ores
+
+artisan:
+potions (foraging)
+paper (woodcutting)
+alcohol (farming)
+pottery
+
+Nearby lands:
+- forest / woods (+ woodcutting, + foraging, + hunting) (temperate, tropical, polar)
+- river (+ fishing) (clay) (temperate, tropical, arid)
+- mountains (+ mining) (temperate, tropical, arid, polar)
+- plains (+ farming) (temperate, polar, arid, tropical)
+- hills (+ farming, + mining) (temperate, polar, arid, tropical)
+- swamps (+ foraging) (clay) (temperate, tropical)
+- ocean/sea (+ fishing, + trade) (temperate, polar, arid, tropical)
+- main road (+ trade) (temperate, polar, arid, tropical)
+- jungle
+- desert
+
+Steps to town gen:
+
+1. Name
+2. Size
+3. Temperature and nearby lands (region)
+4. 
+
+
+60-80% of population are farmers
+
+3. Nearby lands:
+
+Could be:
+- in the middle of a region type
+- on the edge of two region types
+- having 3 nearby region types
+
+
+Region Gen Info:
+- Name
+- Description
+- Resources Available
