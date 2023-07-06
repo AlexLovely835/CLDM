@@ -30,9 +30,12 @@ def generateForestResources():
     common_resources = []
     woodcutting = ['lumber']
     foraging = ['mushrooms', 'alchemical herbs', 'flowers', 'nuts', 'berries']
-    hunting = ['exotic meats', 'meats', 'furs', 'monster parts']
+    hunting = ['common game', 'exotic game', 'monster parts']
 
     common_resources.append(random.choice(woodcutting))
+    choice = random.choice(foraging)
+    foraging.remove(choice)
+    common_resources.append(choice)
     common_resources.append(random.choice(foraging))
     common_resources.append(random.choice(hunting))
 

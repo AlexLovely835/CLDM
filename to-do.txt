@@ -1,0 +1,190 @@
+Natural Professions:
+- woodcutting
+    - lumber
+- foraging
+    - mushrooms
+    - alchemical herbs
+- farming
+    - grain
+        - wheat
+        - rye
+        - barley
+    - fruit
+    - vegetables
+    - livestock
+    - milk
+    - wool 
+- hunting
+    - exotic meats
+    - meats
+    - animal furs
+    - monster parts
+- mining
+    - minerals
+    - metallic ore
+        - tungsten
+        - tin 
+        - copper 
+        - iron 
+        - gold
+        - silver
+    - rock
+        - granite
+        - stone
+        - marble
+    - gems
+    - coal
+- fishing
+    -fish
+
+Medieval Fantasy Professions 
+
+Poor/Small Area
+- Farmer
+    - 50-60% of population
+    - Grain, Fruits, Vegetables, Milk, Wool, Livestock
+- Hunters
+    - 50-60% of population
+    - meat, furs
+- Fisherman
+    - 50-60% of population
+    - fish
+- Fishmonger
+    - Spouse/child of Fisherman
+    - sells the caught fish
+- Butcher
+    - Requires Farmers or Hunters
+    - Livestock --> Cut Meats
+- Carpenter
+    - Requires Lumber/Lumberjack
+    - Builds wooden buildings
+- Baker
+    - Requires food resources
+    - Runs bakery for bread and other foods
+- Bartender
+    - Requires alcohol
+    - Runs Taverns
+- Blacksmith
+    - Requires metallic ore
+    - Produces weapons, armor, and other metalcrafts
+- Cobbler
+    - Requires lumber/leather
+    - Produces shoes
+- Furrier
+    - Requires furs
+    - Produces clothing from furs
+- Lumberjack
+- Forager
+- Trapper
+- Leatherworker
+- Midwife
+- Miller
+- Miner
+- Seamstress
+- Shopkeep
+- Peddler
+
+
+Middle Class/Medium Sized Area
+- Apothecarist/Alchemist
+    - Requires alchemical herbs
+    - Produces potions
+- Barber
+    - Gives hair cuts
+- Brewer
+    - Requires Cooper (barrels) and grains
+    - alcohol
+- Mason
+    - Requires Clay 
+    - produces brick
+- Pimp
+    - runs brothel
+    - requires at least 10 courtesan
+- Cartographer
+    - produces maps
+- Clock Maker
+    - produces clocks
+- Clergyman
+    - serves the church
+- Chef
+    - Requires food products
+    - Runs restaurant
+- Cooper
+    - Requires Blacksmith, Lumber
+    - Produces barrels
+- Courtesan
+    - sells self
+- Domestic Partner 
+    - Partner must be of high enough social class to support both?
+- Guard
+    - protects the town / keeps the peace
+- Hatter
+    - requires furs
+    - produces hats
+- Healer
+    - usually serves the church
+    - heals people
+- Bookseller
+- Jailor
+- Locksmith
+- Librarian
+- Priest
+- Mortician
+- Potter
+- Saddler
+- Servant
+- Stablemaster
+- Soldier
+- Stonemason
+- Street Seller
+- Street Sweeper
+- Tailor
+- Tanner
+- Teacher
+- Thief
+- Toymaker
+- Florist
+- Appraiser
+- Auctioneer
+- Bookbinder
+- Burglar
+- Assassin
+- Furniture Artisan
+- Instrument Maker
+- Fletcher
+- Drug Dealer
+- Drug Lord
+- Conman
+- Exterminator
+- Adventurer
+- Urchin
+
+Richer/Large Area
+- Actor
+    - Requires theater
+- Advisor
+    - Requires position of power to advise
+- Architect
+- Astrologer
+- Banker
+- Historian
+- Dancer
+- Diplomat
+- Inventor
+- Linguist
+- Goldsmith
+    - requires gold
+    - produces gold metalworks
+- Minstrel
+- Painter
+- Philosopher
+- Politician
+- Professor
+- Student
+- Clown
+- Curator
+- Glasspainter
+- Juggler
+- Singer
+- Stage Magician
+- Theater Director

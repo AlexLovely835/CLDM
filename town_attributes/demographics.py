@@ -8,5 +8,14 @@ def generateTownProfessions(town):
         'woodcutting': 0,
         'hunting': 0
     }
-    for key, value in town.regions.supported_professions.items():
-        town.professions[key] += value
+    town.resources = []
+
+    for region in town.regions:
+        for key, value in region.supported_professions.items():
+            town.professions[key] += value
+        for resource in region.resources:
+            town.resources.append(resource)
+
+    
+    
+    
