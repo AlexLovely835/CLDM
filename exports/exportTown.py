@@ -7,8 +7,16 @@ def exportTown(town):
         'name': town.name,
         'size': town.size,
         'climate': town.climate,
-        'leader_name': f'{town.leader.first_name} {town.leader.last_name}'
+        'leader_name': f'{town.leader.first_name} {town.leader.last_name}',
+        'imports': '\n- '.join(town.imports),
+        'exports': '\n- '.join(town.exports),
     }
+
+    professions = ""
+    for key, value in town.professions.items():
+        if value > 0:
+            professions += f'| {key} | {value} |\n'
+    replacements['professions'] = professions
 
     if len(town.regions) == 3:
         region_string = f"{town.name} lies between a {town.regions[0].partial_desc}, a {town.regions[1].partial_desc}, and a {town.regions[2].partial_desc}. "

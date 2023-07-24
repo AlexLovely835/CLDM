@@ -1,5 +1,6 @@
 import random, argparse
 from town_attributes.names import generateName
+from town_attributes.demographics import generateTownProfessions
 from general_settings import *
 from dice import rollDice
 import createRegion, createNPC
@@ -45,6 +46,8 @@ class Town():
 
         self.npcs = []
         self.npcs.append(self.leader)
+
+        generateTownProfessions(self)
 
         if export:
             exportTown.exportTown(self)

@@ -6,7 +6,6 @@ def exportRegion(region):
     replacements = {
         'name': region.name,
         'description': region.description,
-        'resources': '\n- '.join(region.resources),
     }
 
     if region.town:

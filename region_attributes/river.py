@@ -19,17 +19,7 @@ def generateRiverDesc(name):
 
 def generateSupportedProfessions():
     return {
-        'fishing': rollDice('3d6'),
-        'trade': rollDice('2d6'), 
-        'farming': rollDice('2d6')
+        'fishing': rollDice('8d6'),
+        'foraging': rollDice('2d6'), 
+        'farming': rollDice('6d6')
     }
-
-def generateRiverResources():
-    common_resources = []
-    misc = ['clay', 'salt', 'mineral deposits']
-    fishing = ['fish']
-
-    common_resources.append(random.choice(misc))
-    common_resources.append(random.choice(fishing))
-
-    return common_resources

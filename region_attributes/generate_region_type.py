@@ -9,8 +9,7 @@ def generateRegionType(type, region, town):
         else:
             region.name = forest.generateForestName()
         region.description, region.partial_desc = forest.generateForestDesc(region.climate, region.name)
-        region.supported_professions = forest.generateSupportedProfessions()
-        region.resources = forest.generateForestResources()
+        region.supported_professions = forest.generateSupportedProfessions()    
     elif type == 'River':
         if town:
             region.name = river.generateRiverName(town)
@@ -18,7 +17,6 @@ def generateRegionType(type, region, town):
             region.name = river.generateRiverName()
         region.description, region.partial_desc = river.generateRiverDesc(region.name)
         region.supported_professions = river.generateSupportedProfessions()
-        region.resources = river.generateRiverResources()
     elif type == 'Mountains':
         if town:
             region.name = mountain.generateMountainName(town)
@@ -26,6 +24,5 @@ def generateRegionType(type, region, town):
             region.name = mountain.generateMountainName()
         region.description, region.partial_desc = mountain.generateMountainDesc(region.name)
         region.supported_professions = mountain.generateSupportedProfessions()
-        region.resources = mountain.generateMountainResources()
     else:
         raise TypeError('Region type', type, 'does not exist.')

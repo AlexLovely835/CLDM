@@ -22,25 +22,7 @@ def generateMountainDesc(name):
 
 def generateSupportedProfessions():
     return {
-        'mining': rollDice('3d6'),
-        'foraging': rollDice('1d6'),
-        'hunting': rollDice('2d6')
+        'mining': rollDice('8d6'),
+        'foraging': rollDice('4d6'),
+        'hunting': rollDice('4d6')
     }
-
-def generateMountainResources():
-    common_resources = []
-    mining = ['iron ore', 'copper ore', 'tin ore', 'coal', 'gemstones', 'gold ore', 'silver ore', 'granite', 'marble', 'stone']
-    foraging = ['mushrooms', 'alchemical herbs', 'mountain flowers', 'nuts', 'berries']
-    hunting = ['common game', 'exotic game', 'monster parts']
-
-    choice = random.choice(mining)
-    mining.remove(choice)
-    common_resources.append(choice)
-    common_resources.append(random.choice(mining))
-    choice = random.choice(foraging)
-    foraging.remove(choice)
-    common_resources.append(choice)
-    common_resources.append(random.choice(foraging))
-    common_resources.append(random.choice(hunting))
-
-    return common_resources

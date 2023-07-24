@@ -21,23 +21,10 @@ def generateForestDesc(climate, name):
 
 def generateSupportedProfessions():
     return {
-        'woodcutting': rollDice('3d6'),
-        'foraging': rollDice('2d6'),
-        'hunting': rollDice('2d6')
+        'woodcutting': rollDice('8d6'),
+        'foraging': rollDice('4d6'),
+        'hunting': rollDice('4d6'), 
+        'farming': rollDice('3d6')
     }
 
-def generateForestResources():
-    common_resources = []
-    woodcutting = ['lumber']
-    foraging = ['mushrooms', 'alchemical herbs', 'flowers', 'nuts', 'berries']
-    hunting = ['common game', 'exotic game', 'monster parts']
-
-    common_resources.append(random.choice(woodcutting))
-    choice = random.choice(foraging)
-    foraging.remove(choice)
-    common_resources.append(choice)
-    common_resources.append(random.choice(foraging))
-    common_resources.append(random.choice(hunting))
-
-    return common_resources
     

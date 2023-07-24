@@ -6,3 +6,15 @@ The $size of $name was founded in a $climate area. $region_string$name is led by
 
 **Nearby**
 - $nearby
+
+**Demographics**
+
+| Job | Quantity |
+| - | - |
+$professions
+
+**Imports**
+- $imports
+
+**Exports**
+- $exports

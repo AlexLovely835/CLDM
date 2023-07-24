@@ -1,88 +1,4 @@
-Natural Professions:
-- woodcutting
-    - lumber
-- foraging
-    - mushrooms
-    - alchemical herbs
-- farming
-    - grain
-        - wheat
-        - rye
-        - barley
-    - fruit
-    - vegetables
-    - livestock
-    - milk
-    - wool 
-- hunting
-    - exotic meats
-    - meats
-    - animal furs
-    - monster parts
-- mining
-    - minerals
-    - metallic ore
-        - tungsten
-        - tin 
-        - copper 
-        - iron 
-        - gold
-        - silver
-    - rock
-        - granite
-        - stone
-        - marble
-    - gems
-    - coal
-- fishing
-    -fish
 
-Medieval Fantasy Professions 
-
-Poor/Small Area
-- Farmer
-    - 50-60% of population
-    - Grain, Fruits, Vegetables, Milk, Wool, Livestock
-- Hunters
-    - 50-60% of population
-    - meat, furs
-- Fisherman
-    - 50-60% of population
-    - fish
-- Fishmonger
-    - Spouse/child of Fisherman
-    - sells the caught fish
-- Butcher
-    - Requires Farmers or Hunters
-    - Livestock --> Cut Meats
-- Carpenter
-    - Requires Lumber/Lumberjack
-    - Builds wooden buildings
-- Baker
-    - Requires food resources
-    - Runs bakery for bread and other foods
-- Bartender
-    - Requires alcohol
-    - Runs Taverns
-- Blacksmith
-    - Requires metallic ore
-    - Produces weapons, armor, and other metalcrafts
-- Cobbler
-    - Requires lumber/leather
-    - Produces shoes
-- Furrier
-    - Requires furs
-    - Produces clothing from furs
-- Lumberjack
-- Forager
-- Trapper
-- Leatherworker
-- Midwife
-- Miller
-- Miner
-- Seamstress
-- Shopkeep
-- Peddler
 
 
 Middle Class/Medium Sized Area
@@ -188,3 +104,63 @@ Richer/Large Area
 - Singer
 - Stage Magician
 - Theater Director
+
+
+Building Types:
+
+Tavern
+General Store 
+Blacksmith
+Adventuring Stop
+Leatherworker
+Arcane Supply Shop
+Butcher
+Bakery
+Alchemist
+Tailor
+Gambling Hall
+Jeweller
+Fletcher
+Cobbler
+Clothing Shop
+Barber
+Brewer
+Brothel
+Cartographers Shop
+Clockmaker
+Restaurant
+
+Jail/Prison
+Barracks
+Town Hall
+Temple
+Church
+College
+Theater
+
+Town Square
+Market
+Graveyard
+
+Tavern:
+
+Stats:
+Size- large or small
+Wealth- running well or put together poorly
+Cleanliness- well-kept or filthy
+Reputation- wellknown or quiet
+Crime- virtuous or shady
+
+
+Description
+
+innkeeper 
+
+Entertainment:
+Dice games, songs, etc.
+
+Menu and prices
+
+Rooms available and price
+
+General building description:
